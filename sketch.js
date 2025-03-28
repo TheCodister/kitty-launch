@@ -6,7 +6,7 @@ const LAUNCHER_Y_PERCENT = 0.8; // Vertical position of the launcher base
 const MIN_ANGLE = -85; // Min launch angle (degrees upwards)
 const MAX_ANGLE = -5; // Max launch angle (degrees upwards)
 const MIN_POWER = 10;
-const MAX_POWER = 40; // Max initial velocity magnitude
+const MAX_POWER = 50; // Max initial velocity magnitude
 const POWER_SCALE = 0.15; // How much mouse drag affects power
 
 const GRAVITY = 0.35;
