@@ -6,17 +6,17 @@ const LAUNCHER_Y_PERCENT = 0.8; // Vertical position of the launcher base
 const MIN_ANGLE = -85; // Min launch angle (degrees upwards)
 const MAX_ANGLE = -5; // Max launch angle (degrees upwards)
 const MIN_POWER = 10;
-const MAX_POWER = 30; // Max initial velocity magnitude
+const MAX_POWER = 40; // Max initial velocity magnitude
 const POWER_SCALE = 0.15; // How much mouse drag affects power
 
-const GRAVITY = 0.4;
+const GRAVITY = 0.35;
 const AIR_RESISTANCE = 0.995; // Factor to multiply velocity by each frame
 const GROUND_FRICTION = 0.9; // Factor to multiply horizontal velocity on ground bounce
-const BOUNCE_FACTOR = 0.5; // Factor to multiply vertical velocity on ground bounce
+const BOUNCE_FACTOR = 0.6; // Factor to multiply vertical velocity on ground bounce
 
-const OBSTACLE_DENSITY = 0.0015; // Chance per pixel traveled to spawn an obstacle
+const OBSTACLE_DENSITY = 0.0025; // Chance per pixel traveled to spawn an obstacle
 const OBSTACLE_MIN_DIST = 200; // Min distance between obstacles
-const OBSTACLE_WIDTH = 40;
+const OBSTACLE_WIDTH = 50;
 const OBSTACLE_HEIGHT_MIN = 30;
 const OBSTACLE_HEIGHT_MAX = 100;
 const BOOST_POWER_Y = 25; // Upward velocity impulse from boost
